@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+}
+
+.box {
+    font-size: 30px;
+    font-weight: bold;
+}

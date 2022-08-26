@@ -1,0 +1,15 @@
+.box1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    width: 150px;
+    height: 60px;
+    border-width: 3px;
+    border-radius: 50px;
+    background-color: beige;
+    font-size: 18px;
+    margin-right: 50px;
+}

@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Surch } from './components/surch/surch';
+import { Done } from './components/done/done';
+import { Buttons } from './components/buttons/buttons';
+import { List } from './components/list/list';
+import { Add } from './components/add/add';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <><div className="app">
+      <h1 className="main">Todo-application</h1>
+    </div><Done/><Surch /><Buttons/><List/><Add/>
+    </>
   );
 }
 

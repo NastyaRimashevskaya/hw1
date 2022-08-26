@@ -1,0 +1,22 @@
+.add-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add-inp {
+    width: 810px;
+    max-width: 900px;
+    margin-right: 20px;
+    background-color: lightskyblue;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.add-but {
+    font-size: 20px;
+    width: 100px;
+    border-radius: 30px;
+}

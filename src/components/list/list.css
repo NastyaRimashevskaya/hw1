@@ -1,0 +1,42 @@
+.list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.list-border {
+    border: solid 2px blue;
+    width: 900px;
+    max-width: 900px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 0 10px 0 40px;
+    font-size: 25px;
+}
+
+.button1 {
+    background: none;
+    border: 1px solid black;
+    height: 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: red;
+    border-radius: 5px;
+}
+
+.list-ul {
+    padding: 0;
+}
+
+.button2 {
+    background: none;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    border-radius: 5px;
+}
